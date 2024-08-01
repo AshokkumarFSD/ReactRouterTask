@@ -1,0 +1,64 @@
+.card_bottom_info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;  
+}
+
+* {
+  font-family: sans-serif;
+ }
+
+.right_align{
+  text-align: end;
+}
+
+.by{
+  color: gray;
+}
+
+.card_coordinator{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card_basic {
+  margin: 20px;
+  width: 340px;
+}
+
+.card_image{
+  height: 200px;
+  width: 100%;
+}
+
+.title_container{
+  display: flex;
+  align-items: flex-start;
+  height: 90px;
+}
+
+.card_title{
+  margin-bottom: 0px;
+}
+
+.tab_container{
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tab_text{
+  font-weight: 500;
+}
+
+.tab_text_selected{
+  font-weight: 700;
+  border-bottom-width: 4px !important;
+  border-color: #0DBA4B !important;
+  color: #0DBA4B !important;
+}
