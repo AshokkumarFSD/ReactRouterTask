@@ -1,4 +1,25 @@
 import TabData from "./PopulateTabData"
+import FullStack1 from '../assets/full_stack_1.jpg';
+import FullStack2 from '../assets/full_stack_2.webp';
+import FullStack3 from '../assets/full_stack_3.webp';
+import FullStack4 from '../assets/full_stack_4.webp';
+import FullStack5 from '../assets/full_stack_5.png';
+import FullStack6 from '../assets/full_stack_6.webp';
+import DataScience1 from '../assets/data_science_1.webp';
+import DataScience2 from '../assets/data_science_2.webp';
+import DataScience3 from '../assets/data_science_3.webp';
+import DataScience4 from '../assets/data_science_4.png';
+import DataScience5 from '../assets/data_science_3.webp';
+import DataScience6 from '../assets/data_science_6.webp';
+import Cyber1 from '../assets/cyber_1.webp';
+import Cyber2 from '../assets/cyber_2.webp';
+import Cyber3 from '../assets/cyber_3.webp';
+import Cyber4 from '../assets/cyber_4.webp';
+import Career1 from '../assets/career_1.png';
+import Career2 from '../assets/career_2.png';
+import Career3 from '../assets/career_3.webp';
+import Career4 from '../assets/career_4.jpg';
+
 
 //For landing page with all blog
 export default function LandingPage() {
@@ -10,7 +31,7 @@ export default function LandingPage() {
             author: "Isha Sharma",
             date: "23 Jul, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+            imageUrl: FullStack1,
             alt: "BestBest Full-Stack Development Project Ideas in 2024"
         },
         {
@@ -19,7 +40,7 @@ export default function LandingPage() {
             author: "Meghana D",
             date: "26 Mar, 2024",
             duration: "3 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_.webp",
+            imageUrl: FullStack2,
             alt: "How Long Would It Take to Be a Full Stack Developer?"
         },
         {
@@ -28,7 +49,7 @@ export default function LandingPage() {
             author: "Lukesh S",
             date: "02 Apr, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2024/03/Feature-3.webp",
+            imageUrl: FullStack3,
             alt: "7 Unique Web Development Project Ideas for Beginners"
         },
         {
@@ -37,7 +58,7 @@ export default function LandingPage() {
             author: "Isha Sharma",
             date: "22 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png",
+            imageUrl: FullStack4,
             alt: "10 Best Database Management Systems For Software Developers"
         },
         {
@@ -46,7 +67,7 @@ export default function LandingPage() {
             author: "Isha Sharma",
             date: "25 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2024/04/10-Best-React-Project-Ideas-for-Developers-with-Source-Code.png",
+            imageUrl:FullStack5,
             alt: "10 Best React Project Ideas for Developers [with Source Code] "
         },
         {
@@ -55,7 +76,7 @@ export default function LandingPage() {
             author: "Tushar Vinocha",
             date: "26 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/02/1_6rDcIgFJQldloIERiUSmzw.png",
+            imageUrl:FullStack6,
             alt: "How does Apache work? A detailed introduction to  Apache"
         },
         {
@@ -64,7 +85,7 @@ export default function LandingPage() {
             author: "Isha Sharma",
             date: "23 Jul, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
+            imageUrl: DataScience1,
             alt: "Top 10 High Paying Non-Coding Jobs in Data Science in 2024"
         },
         {
@@ -73,7 +94,7 @@ export default function LandingPage() {
             author: "Lukesh S",
             date: "25 Mar, 2024",
             duration: "7 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples.webp",
+            imageUrl: DataScience2,
             alt: "12 Real-World Data Science Examples: Power Of Data Science"
         },
         {
@@ -82,7 +103,7 @@ export default function LandingPage() {
             author: "Saakshi Priyadarshini",
             date: "16 Apr, 2024",
             duration: "3 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science.png",
+            imageUrl: DataScience3,
             alt: " Can A Commerce Student Do Data Science?"
         },
         {
@@ -91,7 +112,7 @@ export default function LandingPage() {
             author: "Jaishree Tomar",
             date: "26 Apr, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4.png",
+            imageUrl: DataScience4,
             alt: "Roles and Responsibilities of a Data Scientist"
         },
         {
@@ -100,7 +121,7 @@ export default function LandingPage() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Top-Product-Based-Companies-for-Data-Scientists.webp",
+            imageUrl: DataScience5,
             alt: "Top Product-Based Companies for Data Scientists in 2024"
         },
         {
@@ -109,7 +130,7 @@ export default function LandingPage() {
             author: "Srinithi Sankar",
             date: "02 Apr, 2024",
             duration: "7 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/08/feature-image-Best-Data-Science-Online-Courses-for-Beginners.webp",
+            imageUrl: DataScience6,
             alt: "10 Best Data Science Online Courses for Beginners | 2024"
         },
         {
@@ -118,7 +139,7 @@ export default function LandingPage() {
             author: "Archana",
             date: "04 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2021/10/Non-tech-to-Tech-How-difficult-is-that.png",
+            imageUrl: Career1,
             alt: "Is Switching Careers From Non-Tech To Tech Challenging?"
         },
         {
@@ -127,7 +148,7 @@ export default function LandingPage() {
             author: "Tarun Singh",
             date: "02 Apr, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/01/Top-5-Tech-Careers-in-2023-1.png",
+            imageUrl: Career2,
             alt: "Top 5 Tech Careers of the Future [2024]"
         },
         {
@@ -136,7 +157,7 @@ export default function LandingPage() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-The-Future-and-Scope-of-Machine-Learning-Careers-in-the-New-Era.webp",
+            imageUrl:Career3,
             alt: "The Future and Scope of Machine Learning Careers in the New Era"
         },
         {
@@ -145,7 +166,7 @@ export default function LandingPage() {
             author: "Saakshi Priyadarshini",
             date: "25 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Top-Software-Engineering-Careers.jpg",
+            imageUrl: Career4,
             alt: "10 Best Software Engineering Careers in 2024"
         },
         {
@@ -154,7 +175,7 @@ export default function LandingPage() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+            imageUrl: Cyber1,
             alt: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide"
         },
         {
@@ -163,7 +184,7 @@ export default function LandingPage() {
             author: "Tushar Vinocha",
             date: "16 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner.png",
+            imageUrl: Cyber2,
             alt: "Cybersecurity Vs Ethical Hacking: Top 10 Differences"
         },
         {
@@ -172,7 +193,7 @@ export default function LandingPage() {
             author: "Meghana D",
             date: "25 Mar, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
+            imageUrl: Cyber3,
             alt: "What Is Hacking? Types of Hacking & More"
         },
         {
@@ -181,7 +202,7 @@ export default function LandingPage() {
             author: "Tushar Vinocha",
             date: "08 Sep, 2023",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1.png",
+            imageUrl: Cyber4,
             alt: "8 Different Types of Cybersecurity and Threats Involved"
         }
     ]

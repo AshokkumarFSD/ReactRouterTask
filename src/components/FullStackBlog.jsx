@@ -1,11 +1,10 @@
 import TabData from "./PopulateTabData"
-import img1 from '../assets/full_stack_1.jpg';
-import img2 from '../assets/full_stack_2.webp';
-import img3 from '../assets/full_stack_3.webp';
-import img4 from '../assets/full_stack_4.webp';
-import img5 from '../assets/full_stack_5.png';
-import img6 from '../assets/full_stack_6.webp';
-
+import FullStack1 from '../assets/full_stack_1.jpg';
+import FullStack2 from '../assets/full_stack_2.webp';
+import FullStack3 from '../assets/full_stack_3.webp';
+import FullStack4 from '../assets/full_stack_4.webp';
+import FullStack5 from '../assets/full_stack_5.png';
+import FullStack6 from '../assets/full_stack_6.webp';
 
 //For full stack blog
 export default function FullStackBlog() {
@@ -17,7 +16,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "23 Jul, 2024",
             duration: "4 Min Read",
-            imageUrl: img1,
+            imageUrl: FullStack1,
             alt: "BestBest Full-Stack Development Project Ideas in 2024"
         },
         {
@@ -26,7 +25,7 @@ export default function FullStackBlog() {
             author: "Meghana D",
             date: "26 Mar, 2024",
             duration: "3 Min Read",
-            imageUrl: img2,
+            imageUrl: FullStack2,
             alt: "How Long Would It Take to Be a Full Stack Developer?"
         },
         {
@@ -35,7 +34,7 @@ export default function FullStackBlog() {
             author: "Lukesh S",
             date: "02 Apr, 2024",
             duration: "6 Min Read",
-            imageUrl:img3,
+            imageUrl:FullStack3,
             alt: "7 Unique Web Development Project Ideas for Beginners"
         },
         {
@@ -44,7 +43,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "22 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: img4,
+            imageUrl: FullStack4,
             alt: "10 Best Database Management Systems For Software Developers"
         },
         {
@@ -53,7 +52,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "25 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: img5,
+            imageUrl: FullStack5,
             alt: "10 Best React Project Ideas for Developers [with Source Code] "
         },
         {
@@ -62,7 +61,7 @@ export default function FullStackBlog() {
             author: "Tushar Vinocha",
             date: "26 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl:img6,
+            imageUrl:FullStack6,
             alt: "How does Apache work? A detailed introduction to  Apache"
         }
     ]

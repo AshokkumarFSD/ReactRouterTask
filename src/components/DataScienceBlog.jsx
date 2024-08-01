@@ -1,4 +1,10 @@
 import TabData from "./PopulateTabData"
+import DataScience1 from '../assets/data_science_1.webp';
+import DataScience2 from '../assets/data_science_2.webp';
+import DataScience3 from '../assets/data_science_3.webp';
+import DataScience4 from '../assets/data_science_4.png';
+import DataScience5 from '../assets/data_science_3.webp';
+import DataScience6 from '../assets/data_science_6.webp';
 
 //For data science blog
 export default function DataScienceBlog() {
@@ -10,7 +16,7 @@ export default function DataScienceBlog() {
             author: "Isha Sharma",
             date: "23 Jul, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
+            imageUrl: DataScience1,
             alt: "Top 10 High Paying Non-Coding Jobs in Data Science in 2024"
         },
         {
@@ -19,7 +25,7 @@ export default function DataScienceBlog() {
             author: "Lukesh S",
             date: "25 Mar, 2024",
             duration: "7 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples.webp",
+            imageUrl: DataScience2,
             alt: "12 Real-World Data Science Examples: Power Of Data Science"
         },
         {
@@ -28,7 +34,7 @@ export default function DataScienceBlog() {
             author: "Saakshi Priyadarshini",
             date: "16 Apr, 2024",
             duration: "3 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science.png",
+            imageUrl: DataScience3,
             alt: " Can A Commerce Student Do Data Science?"
         },
         {
@@ -37,7 +43,7 @@ export default function DataScienceBlog() {
             author: "Jaishree Tomar",
             date: "26 Apr, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4.png",
+            imageUrl: DataScience4,
             alt: "Roles and Responsibilities of a Data Scientist"
         },
         {
@@ -46,7 +52,7 @@ export default function DataScienceBlog() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Top-Product-Based-Companies-for-Data-Scientists.webp",
+            imageUrl: DataScience5,
             alt: "Top Product-Based Companies for Data Scientists in 2024"
         },
         {
@@ -55,7 +61,7 @@ export default function DataScienceBlog() {
             author: "Srinithi Sankar",
             date: "02 Apr, 2024",
             duration: "7 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/08/feature-image-Best-Data-Science-Online-Courses-for-Beginners.webp",
+            imageUrl: DataScience6,
             alt: "10 Best Data Science Online Courses for Beginners | 2024"
         }
     ]

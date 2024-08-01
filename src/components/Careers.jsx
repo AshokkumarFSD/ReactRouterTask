@@ -1,4 +1,8 @@
 import TabData from "./PopulateTabData"
+import Career1 from '../assets/career_1.png';
+import Career2 from '../assets/career_2.png';
+import Career3 from '../assets/career_3.webp';
+import Career4 from '../assets/career_4.jpg';
 
 //For careers blog
 export default function CareersBlog() {
@@ -10,7 +14,7 @@ export default function CareersBlog() {
             author: "Archana",
             date: "04 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2021/10/Non-tech-to-Tech-How-difficult-is-that.png",
+            imageUrl: Career1,
             alt: "Is Switching Careers From Non-Tech To Tech Challenging?"
         },
         {
@@ -19,7 +23,7 @@ export default function CareersBlog() {
             author: "Tarun Singh",
             date: "02 Apr, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/01/Top-5-Tech-Careers-in-2023-1.png",
+            imageUrl: Career2,
             alt: "Top 5 Tech Careers of the Future [2024]"
         },
         {
@@ -28,7 +32,7 @@ export default function CareersBlog() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-The-Future-and-Scope-of-Machine-Learning-Careers-in-the-New-Era.webp",
+            imageUrl: Career3,
             alt: "The Future and Scope of Machine Learning Careers in the New Era"
         },
         {
@@ -37,7 +41,7 @@ export default function CareersBlog() {
             author: "Saakshi Priyadarshini",
             date: "25 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/03/Top-Software-Engineering-Careers.jpg",
+            imageUrl: Career4,
             alt: "10 Best Software Engineering Careers in 2024"
         }
     ]

@@ -1,4 +1,8 @@
 import TabData from "./PopulateTabData"
+import Cyber1 from '../assets/cyber_1.webp';
+import Cyber2 from '../assets/cyber_2.webp';
+import Cyber3 from '../assets/cyber_3.webp';
+import Cyber4 from '../assets/cyber_4.webp';
 
 //For cyber security blog
 export default function CyberSecurityBlog() {
@@ -10,7 +14,7 @@ export default function CyberSecurityBlog() {
             author: "Jaishree Tomar",
             date: "26 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+            imageUrl: Cyber1,
             alt: "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide"
         },
         {
@@ -19,7 +23,7 @@ export default function CyberSecurityBlog() {
             author: "Tushar Vinocha",
             date: "16 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner.png",
+            imageUrl:Cyber2,
             alt: "Cybersecurity Vs Ethical Hacking: Top 10 Differences"
         },
         {
@@ -28,7 +32,7 @@ export default function CyberSecurityBlog() {
             author: "Meghana D",
             date: "25 Mar, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
+            imageUrl: Cyber3,
             alt: "What Is Hacking? Types of Hacking & More"
         },
         {
@@ -37,7 +41,7 @@ export default function CyberSecurityBlog() {
             author: "Tushar Vinocha",
             date: "08 Sep, 2023",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1.png",
+            imageUrl: Cyber4,
             alt: "8 Different Types of Cybersecurity and Threats Involved"
         }
     ]
