@@ -1,4 +1,11 @@
 import TabData from "./PopulateTabData"
+import img1 from '../assets/full_stack_1.jpg';
+import img2 from '../assets/full_stack_2.webp';
+import img3 from '../assets/full_stack_3.webp';
+import img4 from '../assets/full_stack_4.webp';
+import img5 from '../assets/full_stack_5.png';
+import img6 from '../assets/full_stack_6.webp';
+
 
 //For full stack blog
 export default function FullStackBlog() {
@@ -10,7 +17,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "23 Jul, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+            imageUrl: img1,
             alt: "BestBest Full-Stack Development Project Ideas in 2024"
         },
         {
@@ -19,7 +26,7 @@ export default function FullStackBlog() {
             author: "Meghana D",
             date: "26 Mar, 2024",
             duration: "3 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_.webp",
+            imageUrl: img2,
             alt: "How Long Would It Take to Be a Full Stack Developer?"
         },
         {
@@ -28,7 +35,7 @@ export default function FullStackBlog() {
             author: "Lukesh S",
             date: "02 Apr, 2024",
             duration: "6 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2024/03/Feature-3.webp",
+            imageUrl:img3,
             alt: "7 Unique Web Development Project Ideas for Beginners"
         },
         {
@@ -37,7 +44,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "22 Mar, 2024",
             duration: "4 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png",
+            imageUrl: img4,
             alt: "10 Best Database Management Systems For Software Developers"
         },
         {
@@ -46,7 +53,7 @@ export default function FullStackBlog() {
             author: "Isha Sharma",
             date: "25 Apr, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2024/04/10-Best-React-Project-Ideas-for-Developers-with-Source-Code.png",
+            imageUrl: img5,
             alt: "10 Best React Project Ideas for Developers [with Source Code] "
         },
         {
@@ -55,7 +62,7 @@ export default function FullStackBlog() {
             author: "Tushar Vinocha",
             date: "26 Mar, 2024",
             duration: "5 Min Read",
-            imageUrl: "https://www.guvi.in/blog/wp-content/uploads/2023/02/1_6rDcIgFJQldloIERiUSmzw.png",
+            imageUrl:img6,
             alt: "How does Apache work? A detailed introduction to  Apache"
         }
     ]
